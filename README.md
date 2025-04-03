@@ -2,9 +2,8 @@
 
 **A Unified Dashboard for Cryptocurrency Trends and Real-Time Weather Analytics**
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/CryptoWeatherNexus/build.yml)](https://github.com/rkd-2004/CryptoWeatherNexus/actions)
 [![Deployed on Vercel](https://img.shields.io/badge/deployed%20on-vercel-black?logo=vercel)](https://crypto-weather-nexus-project.vercel.app)
-[![Dependencies](https://img.shields.io/david/rkd-2004/CryptoWeatherNexus)](https://david-dm.org/rkd-2004/CryptoWeatherNexus)
+
 
 ![Dashboard Preview](public/placeholder.jpg)
 
