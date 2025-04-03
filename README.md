@@ -1,4 +1,4 @@
-# CryptoWeatherNexus 🌦️₿
+# CryptoWeatherNexus 
 
 **A Unified Dashboard for Cryptocurrency Trends and Real-Time Weather Analytics**
 
