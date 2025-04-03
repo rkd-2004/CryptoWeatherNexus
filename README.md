@@ -5,7 +5,7 @@
 [![Deployed on Vercel](https://img.shields.io/badge/deployed%20on-vercel-black?logo=vercel)](https://crypto-weather-nexus-project.vercel.app)
 
 
-![Dashboard Preview](images/Dashboard.jpg)
+![Dashboard Preview](images/Dashboard.png)
 
 ## Table of Contents
 - [Features](#features)
