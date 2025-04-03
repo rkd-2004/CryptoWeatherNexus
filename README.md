@@ -41,31 +41,35 @@
 
 ## Installation
 
-# Clone repository
+**Clone repository**
 git clone https://github.com/rkd-2004/CryptoWeatherNexus.git
+
 cd CryptoWeatherNexus
 
-# Install dependencies
+**Install dependencies**
 npm install
 
-# Configure environment
+**Configure environment**
 cp .env.example .env.local
-# Add your API keys to .env.local
 
-# Running the App
+**Add your API keys to .env.local**
+
+**Running the App**
+
 npm run dev
 
 Visit http://localhost:3000
 
-# Build
+**Build**
 npm run build
 
 # Deployment
-Deployed automatically via Vercel:
+Deployed via Vercel:
 https://crypto-weather-nexus-project.vercel.app
 
 # Documentation
 ## Design Decisions
+
 **Component Architecture:**
 Modular components for easy maintenance (/components/crypto, /components/weather)
 
@@ -83,7 +87,7 @@ SWR for stale-while-revalidate caching
 
 WebSocket integration for real-time crypto prices
 
-### Challenges & Resolutions
+# Challenges & Resolutions
 **Challenge	Resolution**
 
 Dependency conflicts (React 19 ↔ date-fns)	Upgraded to react-day-picker@9.x + legacy-peer-deps
@@ -104,7 +108,7 @@ Crypto	CoinGecko	CoinCap, Binance API
 
 News	NewsAPI	Cryptocompare, TheNewsAPI
 
-## **Tech Stack**
+# **Tech Stack**
 Framework: Next.js 14
 
 **Styling:** Tailwind CSS + CSS Modules
