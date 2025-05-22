@@ -35,7 +35,7 @@ const initialState: CryptoState = {
   error: null,
 }
 
-// Simulated API call - in a real app, replace with actual CoinGecko or similar API
+
 export const fetchCryptoData = createAsyncThunk("crypto/fetchCryptoData", async () => {
   try {
     // Simulate API delay
@@ -106,7 +106,7 @@ export const fetchCryptoHistory = createAsyncThunk("crypto/fetchCryptoHistory", 
       const date = new Date()
       date.setDate(today.getDate() - i)
 
-      // Create a somewhat realistic price trend
+      // Create a realistic price trend
       const dayFactor = (7 - i) / 7 // Newer days have higher factor
       const randomChange = (Math.random() * 0.1 - 0.05) * priceBase // -5% to +5%
       const trendFactor = Math.sin(i) * priceBase * 0.03 // Creates a sine wave pattern
